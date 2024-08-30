@@ -25,6 +25,3 @@ def index():
         products = [product for product in products if search_query in product['title'].lower()]
 
     return render_template('index.html', products=products)
-
-if __name__ == '__main__':
-    app.run(debug=True)

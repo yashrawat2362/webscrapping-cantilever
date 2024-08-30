@@ -1,2 +1,4 @@
 # my all code configuration is according to MacOS
-Flask 2.2.2
+Python= 3.11.5
+Flask = 2.2.2
+Werkzeug = 2.2.3
